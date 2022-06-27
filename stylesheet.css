@@ -45,6 +45,7 @@ body{
     grid-template-columns: 0.5fr 2fr 1fr 0.25fr 1fr;
     align-items: center;
     justify-items: end;
+    gap: 20px;
 }
 .magnify{ 
     justify-self: end;
@@ -64,7 +65,7 @@ input{
     background-color: #047857;
     color: white;
     font-size: 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5% 15% 5% 15%;
     border-color: #D1FAE5;
     border-style: solid;
@@ -157,7 +158,7 @@ input{
     font-size: 12px;
     color:grey;
 }
-.announcementsbox, .trendingbox{
+.announcementsbox {
     background-color: white;
     border-radius: 5%;
     display:grid;
@@ -176,4 +177,22 @@ input{
 }
  .anntext{
     padding-bottom: 20px;
+}
+.trendingbox{
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px 15px 10px 15px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    
+    
+    height: fit-content;
+}
+
+.logo1 {
+    width:60px;
+    height:60px;
+    align-self: center;
+    justify-self: center;
+
 }
